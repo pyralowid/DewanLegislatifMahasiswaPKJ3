@@ -520,7 +520,7 @@ footer {
 }
 .produk-hukum-section h2 {
   font-size: 2rem;
-  color: #2d4477;
+  color: #000000;
   margin-bottom: 2rem;
   font-weight: 700;
 }
@@ -560,7 +560,7 @@ footer {
 }
 .dokumen-link span {
   font-size: 1.1rem;
-  color: #2255bb;
+  color: #000000;
   font-weight: 600;
   text-align: center;
   padding: 0 8px;
@@ -574,9 +574,9 @@ footer {
 }
 
 .medium-news-title {
-  font-size: 2.3rem;
+  font-size: 2.1rem;
   font-weight: 700;
-  color: #22223b;
+  color: #000000;
   margin-bottom: 2rem;
   text-align: left;
   letter-spacing: -0.5px;
@@ -621,7 +621,7 @@ footer {
 
 .medium-news-judul {
   font-size: 1.38rem;
-  color: #22223b;
+  color: #000000;
   font-weight: 700;
   margin: 0 0 0.6rem 0;
 }
