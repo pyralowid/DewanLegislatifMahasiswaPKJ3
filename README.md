@@ -1,1 +1,12 @@
-
+fotobph
+fotokomast
+fotokomdu
+fotokomti
+fotokompat
+fotokomli
+prokerbph
+prokerkomsat
+prokerkomdu
+prokerkomti
+prokerkompat
+prokerkomti
