@@ -15,9 +15,16 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  font-family: Arial, Helvetica, sans-serif;
-  background: linear-gradient(135deg,#e3eafe 0%, #fef6f0 100%);
-  background: #f4f6fb;
+  font-family: 'Archivo Black', 'Poppins', sans-serif;
+
+  /* merah + texture halus */
+  background-color: #700707;
+  background-image:
+    radial-gradient(rgba(255,255,255,0.08) 1px, transparent 1px),
+    linear-gradient(135deg, #700707, #6e0b14);
+  background-size: 14px 14px, cover;
+
+  color: #1f1f1f;
 }
 
 main {
@@ -25,10 +32,10 @@ main {
 }
 
 footer {
-  background: #222f3e;
-  color: #fff;
+  background: #ffffff;
+  color: #700707;
   padding: 1rem 0;
-  margin-top: 2rem;
+  margin-top: 3rem;
   flex-shrink: 0;
 }
 
@@ -51,8 +58,8 @@ footer {
 }
 
 .navbar-logo img {
-  width: 75px;
-  height: 75px;
+  width: 80px;
+  height: 90px;
   border-radius: 50%;
   background: #fff;
   object-fit: cover;
@@ -123,7 +130,7 @@ footer {
 
 .dropdown li a {
   padding: 0.7rem 1.2rem;
-  color: #222;
+  color: #700707;
   border-radius: 0;
   font-weight: 400;
   white-space: nowrap;
@@ -140,7 +147,7 @@ footer {
   max-width: 900px;
   width: 100%;
   margin: 2rem auto;
-  padding: 1.5rem;
+  padding: 2rem;
   background: #fff;
   border-radius: 16px;
   box-shadow: 0 4px 20px rgba(40, 40, 70, 0.10);
@@ -172,8 +179,8 @@ footer {
   justify-content: center;
   background: #fff;
   border-radius: 50%;
-  width: 36px;
-  height: 36px;
+  width: 40px;
+  height: 40px;
   margin: 0 0.2rem;
   transition: background 0.2s, transform 0.2s;
   box-shadow: 0 1px 4px rgba(0,0,0,0.08);
@@ -184,21 +191,21 @@ footer {
 }
 
 .footer-icon.instagram:hover {
-  background: #e4405f;
+  background: #ff9900;
 }
 .footer-icon.instagram:hover svg path {
-  fill: #fff;
+  fill: #ffffff;
 }
 
 .footer-icon.email:hover {
-  background: #EA4335;
+  background: #ff9900;
 }
 .footer-icon.email:hover svg path {
   fill: #fff;
 }
 
 .footer-icon.youtube:hover {
-  background: #FF0000;
+  background: #ff9900;
 }
 .footer-icon.youtube:hover svg path {
   fill: #fff;
@@ -266,7 +273,7 @@ footer {
   top: 50%;
   transform: translateY(-50%);
   background: rgba(40,40,40,0.4);
-  color: #fff;
+  color: #000000;
   border: none;
   font-size: 2rem;
   padding: 0.4rem 1rem;
@@ -289,7 +296,7 @@ footer {
   display: inline-block;
   width: 12px; height: 12px;
   border-radius: 50%;
-  background: #ddd;
+  background: #000000;
   margin: 0 4px;
   cursor: pointer;
   transition: background 0.2s;
@@ -436,7 +443,7 @@ footer {
 .program-kerja-section {
   margin-top: 3rem;
   padding: 2rem 1rem;
-  background: #dddbdb;
+  background: #700707;
   border-radius: 16px;
   box-shadow: 0 2px 12px rgba(0,0,0,0.03);
   width:1000px;
@@ -447,7 +454,7 @@ footer {
 .program-kerja-section h2 {
   text-align: center;
   margin-bottom: 1.5rem;
-  color: #2d4477;
+  color: #fff;
   font-size: 2.2rem; /* diperbesar */
   letter-spacing: 0.5px;
   font-weight: 700;
